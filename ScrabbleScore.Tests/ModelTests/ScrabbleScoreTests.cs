@@ -53,18 +53,6 @@ namespace ScrabbleScore.TestTools
 }
 
 
-// private int FindOnePointLettersWithRegex(String inputString)
-// {
-//   if (inputString == null) return 0;
-//   return Regex.Matches(inputString, "[aeioulnrst]", RegexOptions.IgnoreCase).Count;
-// }
-
-// (a\.?|e\.?|i|o\.?) 
-
-// patter to search for: [aeioulnrst]
-
-// text passage to search in: "gray"
-
 // A, E, I, O, U, L, N, R, S, T          1
 // D, G                                  2
 // B, C, M, P                            3

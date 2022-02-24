@@ -8,12 +8,11 @@ namespace ScrabbleScore
   {
     public static int CheckScore(string input)
     {
-      string[] word = input.Split("");
+      string[] word = input.ToLower().Split("");
       int score = 0;
+      Regex onePoint = new Regex("[aeioulnrst]");
       foreach(string letter in word)
-      {
-        letter.ToLower();
-        Regex onePoint = new Regex("aeioulnrst");
+      { 
         Match onePointMatch = onePoint.Match(letter);
         if (onePointMatch.Success)
         {

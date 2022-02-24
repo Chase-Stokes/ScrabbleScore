@@ -22,7 +22,19 @@ namespace ScrabbleScore.TestTools
     [TestMethod]
     public void CheckScore_EReturnsOnePoint_1()
     {
-      Assert.AreEqual("1", Score.CheckScore("e"));
+      Assert.AreEqual(1, Score.CheckScore("e"));
+    }
+
+    [TestMethod]
+    public void CheckScore_IReturnsOnePoint_1()
+    {
+      Assert.AreEqual(1, Score.CheckScore("i"));
+    }
+    
+    [TestMethod]
+    public void CheckScore_LetReturnsThree_3()
+    {
+      Assert.AreEqual(3, Score.CheckScore("Let"));
     }
 
   }

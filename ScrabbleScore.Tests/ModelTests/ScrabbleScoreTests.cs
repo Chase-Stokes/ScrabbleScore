@@ -8,9 +8,9 @@ namespace ScrabbleScore.TestTools
   public class ScoreTests
   {
     [TestMethod]
-    public void Method_Description_ExpectedOutput()
+    public void CheckScore_AReturnsOnePoint_1()
     {
-      Assert.AreEqual("output", Class.Method("input"));
+      Assert.AreEqual("1", Score.CheckScore("a"));
     }
   }
 }

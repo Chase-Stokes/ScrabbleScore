@@ -1,6 +1,6 @@
 #  Score
 
-### By Chase Stokes, Kevin Wilson, Ryan Bass
+### By Chase Stokes, Kevin Williams, Ryan Bass
 
 #### A console application to check the scrabble score of a word
 
@@ -32,4 +32,4 @@ _To run the program navigate to ScrabbleScore and run dotnet restore, once resto
 
 _If you run into any problems, or need to reach me for a separate reason, feel free to send me an email @exampleemail@email.com with details._
 
-_Copyright (c) 2022 Chase Stokes, Kevin Wilson, Ryan Bass_
+_Copyright (c) 2022 Chase Stokes, Kevin Williams, Ryan Bass_

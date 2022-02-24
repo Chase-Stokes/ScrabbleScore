@@ -36,6 +36,12 @@ namespace ScrabbleScore.TestTools
     {
       Assert.AreEqual(3, Score.CheckScore("Let"));
     }
+    
+    [TestMethod]
+    public void CheckScore_ZebraReturns16_16()
+    {
+      Assert.AreEqual(16, Score.CheckScore("Zebra"));
+    }
 
   }
 }

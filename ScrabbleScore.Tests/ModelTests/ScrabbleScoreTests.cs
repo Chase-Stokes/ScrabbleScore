@@ -42,6 +42,12 @@ namespace ScrabbleScore.TestTools
     {
       Assert.AreEqual(16, Score.CheckScore("Zebra"));
     }
+    
+    [TestMethod]
+    public void CheckScore_JaxxReturns25_25()
+    {
+      Assert.AreEqual(25, Score.CheckScore("Jaxx"));
+    }
 
   }
 }
